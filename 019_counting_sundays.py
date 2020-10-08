@@ -1,6 +1,6 @@
 import numpy as np
 
-def sundays():
+def sundays() -> np.integer:
     year = np.array([31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31])
     century = np.tile(year, (100, 1))
     century[3::4, 1] = 29

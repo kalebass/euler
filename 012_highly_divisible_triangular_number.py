@@ -1,5 +1,7 @@
-def res():
-    def triangles():
+from typing import Generator, Union
+
+def res() -> Union[int, None]:
+    def triangles() -> Generator[int, None, None]:
         t = 1
         diff = 2
         while True:

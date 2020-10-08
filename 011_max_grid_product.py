@@ -1,6 +1,6 @@
 import numpy as np
 
-def largest_product():
+def largest_product() -> np.integer:
     arr = np.loadtxt('p011.txt', dtype=np.int32)
     
     return max(
